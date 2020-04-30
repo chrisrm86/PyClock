@@ -3,10 +3,10 @@
 """
 ##########################################################
 
-Name: 		PyClock
+Name:       PyClock
 Created by: Christian Morán
-e-mail: 	christianrmoran86@gmail.com
-More code: 	http://github.com/chrisrm86
+e-mail:     christianrmoran86@gmail.com
+More code:  http://github.com/chrisrm86
 
 ##########################################################
 """
@@ -49,9 +49,6 @@ class PyClock:
 
 		def uranium():
 			display.config(bg="#4A5765", fg="White")
-
-		def milseconds():
-			t=time.strftime()
 
 		self.b1 = Button(self.buttonsContainer, text="Classic", command=classic, width=10)
 		self.b1.pack(side=LEFT)
