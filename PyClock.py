@@ -19,6 +19,7 @@ class PyClock:
 		self.frame.geometry("485x200")
 		self.frame.resizable(False,False)
 		self.frame.title("PyClock")
+		self.frame.iconbitmap('clock-icon.ico')
 		self.cont = Frame(self.frame)
 		self.cont.pack(expand=YES, fill=BOTH)
 
